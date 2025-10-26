@@ -35,7 +35,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center justify-center gap-2 mb-8">
             <Clock className="w-5 h-5 text-primary" />
-            <p className="text-lg text-foreground">Available 24/7 for Your Convenience</p>
+            <p className="text-lg text-foreground">Booking system availble 24/7 for your convenience</p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
