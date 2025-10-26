@@ -1,18 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Clock } from "lucide-react";
 import wardsLogo from "@/assets/wards-logo.png";
-
 const Hero = () => {
   const scrollToBooking = () => {
-    document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('booking')?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-
   const scrollToContact = () => {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('contact')?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-hero" />
       
@@ -22,11 +22,7 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          <img 
-            src={wardsLogo} 
-            alt="Wards Service Centre Logo" 
-            className="w-48 md:w-64 lg:w-72 mx-auto mb-8 drop-shadow-2xl"
-          />
+          <img src={wardsLogo} alt="Wards Service Centre Logo" className="w-48 md:w-64 lg:w-72 mx-auto mb-8 drop-shadow-2xl" />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Wards Service Centre
           </h1>
@@ -39,27 +35,16 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              onClick={scrollToBooking}
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8"
-            >
+            <Button size="lg" onClick={scrollToBooking} className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8">
               Book a Service
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              onClick={scrollToContact}
-              className="border-primary text-primary hover:bg-primary/10 text-lg px-8"
-            >
+            <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-primary text-lg px-8 bg-amber-700 hover:bg-amber-600">
               <Phone className="mr-2 w-5 h-5" />
               Call Us Now
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
