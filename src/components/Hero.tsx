@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Clock } from "lucide-react";
+import wardsLogo from "@/assets/wards-logo.png";
 
 const Hero = () => {
   const scrollToBooking = () => {
@@ -21,6 +22,11 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
+          <img 
+            src={wardsLogo} 
+            alt="Wards Service Centre Logo" 
+            className="w-48 md:w-64 lg:w-72 mx-auto mb-8 drop-shadow-2xl"
+          />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Wards Service Centre
           </h1>
