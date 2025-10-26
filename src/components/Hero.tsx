@@ -35,10 +35,8 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" onClick={scrollToBooking} className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8">
-              Book a Service
-            </Button>
-            <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-primary text-lg px-8 bg-amber-700 hover:bg-amber-600">
+            
+            <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-primary hover:bg-primary/10 text-lg px-8">
               <Phone className="mr-2 w-5 h-5" />
               Call Us Now
             </Button>
