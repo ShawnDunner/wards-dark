@@ -51,10 +51,10 @@ const Contact = () => {
             <p className="text-muted-foreground">
               168 Barrett Street
             </p>
-            <p className="text-sm text-muted-foreground mt-2">
+            <p className="text-muted-foreground mt-2">
               Bracken Ridge
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-muted-foreground">
               QLD 4017
             </p>
           </Card>
