@@ -34,11 +34,16 @@ const Hero = () => {
             <p className="text-lg text-foreground">Booking system availble 24/7 for your convenience</p>
           </div>
           
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col gap-4 justify-center items-center">
             <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-[#eb5516] hover:bg-primary/10 text-lg px-8">
               <Phone className="mr-2 w-5 h-5" />
               To Book In Your Vehicle Call Us Now
             </Button>
+            <a href="#faqs">
+              <Button size="lg" variant="outline" className="border-secondary text-foreground hover:bg-secondary/10 text-lg px-8">
+                Frequently Asked Questions - FAQs
+              </Button>
+            </a>
           </div>
         </div>
       </div>
