@@ -11,7 +11,7 @@ const services = [
   {
     icon: ShieldCheck,
     title: "Safety Certificate",
-    description: "COI Approved Inspection Station - ensuring your vehicle meets safety standards",
+    description: "COI Approved Inspection Station 9509 - ensuring your vehicle meets safety standards",
     color: "secondary"
   },
   {
