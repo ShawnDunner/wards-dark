@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-3 gap-8 items-center">
           {/* Left Logo */}
           <div className="flex justify-start">
-            <img src={wardsLogo} alt="Wards Service Centre Logo" className="w-32 md:w-40 opacity-50 hover:opacity-100 transition-opacity" />
+            <img src={wardsLogo} alt="Wards Service Centre Logo" className="w-48 md:w-56 opacity-50 hover:opacity-100 transition-opacity" />
           </div>
 
           {/* Center Content */}
@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Right Logo */}
           <div className="flex justify-end">
-            <img src={wardsLogo} alt="Wards Service Centre Logo" className="w-32 md:w-40 opacity-50 hover:opacity-100 transition-opacity" />
+            <img src={wardsLogo} alt="Wards Service Centre Logo" className="w-48 md:w-56 opacity-50 hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </div>
