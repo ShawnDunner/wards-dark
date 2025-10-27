@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Bot, Phone, Sparkles } from "lucide-react";
+import { Bot, Phone, AudioWaveform } from "lucide-react";
 const AIBooking = () => {
   const handleAICall = () => {
     // Placeholder for AI call functionality
@@ -52,7 +52,7 @@ const AIBooking = () => {
 
               <Card className="p-6 bg-muted/50 border-border">
                 <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
-                  <Sparkles className="w-5 h-5 text-primary" />
+                  <AudioWaveform className="w-5 h-5 text-primary" />
                   What Our AI Can Do
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
