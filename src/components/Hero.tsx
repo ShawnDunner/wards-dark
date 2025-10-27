@@ -35,12 +35,19 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col gap-4 justify-center items-center">
-            <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-[#eb5516] hover:bg-primary/10 text-lg px-8">
+            <Button 
+              size="lg" 
+              onClick={scrollToContact} 
+              className="bg-gradient-primary text-white hover:opacity-80 transition-all duration-300 text-lg px-8 border-0 shadow-orange"
+            >
               <Phone className="mr-2 w-5 h-5" />
               To Book In Your Vehicle Call Us Now
             </Button>
             <a href="#faqs">
-              <Button size="lg" variant="outline" className="border-secondary text-foreground hover:bg-secondary/10 text-lg px-8">
+              <Button 
+                size="lg" 
+                className="bg-gradient-secondary text-white hover:opacity-80 transition-all duration-300 text-lg px-8 border-0 shadow-purple"
+              >
                 Frequently Asked Questions - FAQs
               </Button>
             </a>
