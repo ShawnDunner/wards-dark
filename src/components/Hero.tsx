@@ -38,9 +38,9 @@ const Hero = () => {
             <Button size="lg" onClick={scrollToBooking} className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8">
               Book a Service
             </Button>
-            <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-primary hover:bg-primary/10 text-lg px-8">
+            <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-[#eb5516] hover:bg-primary/10 text-lg px-8">
               <Phone className="mr-2 w-5 h-5" />
-              Call Us Now
+              To Book In Your Vehicle Call Us Now
             </Button>
           </div>
         </div>
