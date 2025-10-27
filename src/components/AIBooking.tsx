@@ -35,12 +35,18 @@ const AIBooking = () => {
                   Speak directly with our AI assistant to book your service
                 </p>
                 <div className="space-y-2">
-                  <a href="tel:0738692222" className="block text-lg font-semibold text-primary hover:text-primary-glow transition-colors">
-                    07 3869 2222
-                  </a>
-                  <a href="tel:0492220222" className="block text-lg font-semibold text-primary hover:text-primary-glow transition-colors">
-                    0492 220 222
-                  </a>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <a href="tel:0738692222" className="block text-lg font-semibold text-muted-foreground hover:text-primary transition-colors">
+                      07 3869 2222
+                    </a>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <a href="tel:0492220222" className="block text-lg font-semibold text-muted-foreground hover:text-primary transition-colors">
+                      0492 220 222
+                    </a>
+                  </div>
                 </div>
               </Card>
 
