@@ -77,7 +77,7 @@ const AIBooking = () => {
             </div>
 
             <div className="mt-8 text-center">
-              <Button size="lg" onClick={handleAICall} className="bg-gradient-secondary hover:shadow-purple transition-all duration-300 text-lg px-8">
+              <Button size="lg" onClick={handleAICall} className="bg-gradient-secondary text-white hover:scale-105 hover:shadow-purple transition-all duration-300 text-lg px-8 border-0 shadow-purple">
                 <Phone className="mr-2 w-5 h-5" />
                 Start AI Call
               </Button>
