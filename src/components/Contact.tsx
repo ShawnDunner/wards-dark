@@ -39,7 +39,10 @@ const Contact = () => {
               24/7 Call Service
             </p>
             <p className="text-lg text-muted-foreground">
-              Our AI assistant is always available to help you
+              Our AI assistant is always
+            </p>
+            <p className="text-lg text-muted-foreground">
+              available to help you
             </p>
           </Card>
 
