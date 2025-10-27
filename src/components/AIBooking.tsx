@@ -19,8 +19,10 @@ const AIBooking = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Book with Our <span className="bg-gradient-secondary bg-clip-text text-transparent">AI Assistant</span>
               </h2>
-              <p className="text-muted-foreground text-lg mb-6">Our intelligent AI agent is available 24/7 to answer your 
-questions and book your service appointment</p>
+              <p className="text-muted-foreground text-lg mb-6">
+                Our intelligent AI agent is available 24/7 to answer your<br />
+                questions and book your service appointment
+              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
