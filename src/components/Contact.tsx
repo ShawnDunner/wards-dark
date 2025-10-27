@@ -52,7 +52,7 @@ const Contact = () => {
               168 Barrett Street
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              Your trusted local auto care provider
+              Bracken Ridge
             </p>
           </Card>
         </div>
