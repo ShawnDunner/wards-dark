@@ -19,15 +19,29 @@ const Footer = () => {
               Premium Auto Care & Maintenance
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
-              <a href="tel:0738692222" className="hover:text-primary transition-colors">
-                07 3869 2222
+              <a href="#about" className="hover:text-primary transition-colors">
+                About Us
               </a>
               <span>•</span>
-              <a href="tel:0492220222" className="hover:text-primary transition-colors">
-                0492 220 222
+              <a href="#faqs" className="hover:text-primary transition-colors">
+                FAQs
               </a>
               <span>•</span>
-              <span>Available 24/7</span>
+              <a href="#privacy" className="hover:text-primary transition-colors">
+                Privacy Policy
+              </a>
+              <span>•</span>
+              <a href="#terms" className="hover:text-primary transition-colors">
+                Terms & Conditions
+              </a>
+              <span>•</span>
+              <a href="#careers" className="hover:text-primary transition-colors">
+                Carers / Join Our Team
+              </a>
+              <span>•</span>
+              <a href="#sitemap" className="hover:text-primary transition-colors">
+                Sitemap
+              </a>
             </div>
             <p className="text-sm text-muted-foreground mt-6">
               © {new Date().getFullYear()} Wards Service Centre. All rights reserved.
