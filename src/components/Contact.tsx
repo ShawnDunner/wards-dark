@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Location</h3>
             <p className="text-muted-foreground">
-              Wards Service Centre
+              168 Barrett Street
             </p>
             <p className="text-sm text-muted-foreground mt-2">
               Your trusted local auto care provider
