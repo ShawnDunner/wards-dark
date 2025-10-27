@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Clock } from "lucide-react";
+import { Phone, Clock, HelpCircle } from "lucide-react";
 import wardsLogo from "@/assets/wards-logo.png";
 const Hero = () => {
   const scrollToBooking = () => {
@@ -38,7 +38,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               onClick={scrollToContact} 
-              className="bg-gradient-primary text-white hover:opacity-80 transition-all duration-300 text-lg px-8 border-0 shadow-orange"
+              className="bg-gradient-primary text-white hover:scale-105 hover:shadow-glow transition-all duration-300 text-lg px-8 border-0 shadow-orange"
             >
               <Phone className="mr-2 w-5 h-5" />
               To Book In Your Vehicle Call Us Now
@@ -46,8 +46,9 @@ const Hero = () => {
             <a href="#faqs">
               <Button 
                 size="lg" 
-                className="bg-gradient-secondary text-white hover:opacity-80 transition-all duration-300 text-lg px-8 border-0 shadow-purple"
+                className="bg-gradient-secondary text-white hover:scale-105 hover:shadow-purple transition-all duration-300 text-lg px-8 border-0 shadow-purple"
               >
+                <HelpCircle className="mr-2 w-5 h-5" />
                 Frequently Asked Questions - FAQs
               </Button>
             </a>
