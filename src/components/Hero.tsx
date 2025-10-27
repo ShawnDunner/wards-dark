@@ -34,10 +34,7 @@ const Hero = () => {
             <p className="text-lg text-foreground">Booking system availble 24/7 for your convenience</p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" onClick={scrollToBooking} className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8">
-              Book a Service
-            </Button>
+          <div className="flex justify-center items-center">
             <Button size="lg" variant="outline" onClick={scrollToContact} className="border-primary text-[#eb5516] hover:bg-primary/10 text-lg px-8">
               <Phone className="mr-2 w-5 h-5" />
               To Book In Your Vehicle Call Us Now
