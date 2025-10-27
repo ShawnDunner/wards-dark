@@ -21,11 +21,11 @@ const Contact = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Call Us</h3>
             <div className="space-y-2">
-              <a href="tel:0732632257" className="block text-lg text-primary hover:text-primary-glow transition-colors">
-                07 3263 2257
+              <a href="tel:0738692222" className="block text-lg text-primary hover:text-primary-glow transition-colors">
+                07 3869 2222
               </a>
-              <a href="tel:0408030099" className="block text-lg text-primary hover:text-primary-glow transition-colors">
-                0408 030 099
+              <a href="tel:0492220222" className="block text-lg text-primary hover:text-primary-glow transition-colors">
+                0492 220 222
               </a>
             </div>
           </Card>
