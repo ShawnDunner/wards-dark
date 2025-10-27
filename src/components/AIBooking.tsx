@@ -1,15 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Bot, Phone } from "lucide-react";
-
 const AIBooking = () => {
   const handleAICall = () => {
     // Placeholder for AI call functionality
     console.log("AI Call initiated");
   };
-
-  return (
-    <section id="booking" className="py-20 px-4 relative">
+  return <section id="booking" className="py-20 px-4 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
       
       <div className="container mx-auto relative z-10">
@@ -22,9 +19,8 @@ const AIBooking = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Book with Our <span className="bg-gradient-secondary bg-clip-text text-transparent">AI Assistant</span>
               </h2>
-              <p className="text-muted-foreground text-lg mb-6">
-                Our intelligent AI agent is available 24/7 to answer your questions and book your service appointment
-              </p>
+              <p className="text-muted-foreground text-lg mb-6">Our intelligent AI agent is available 24/7 to answer your 
+questions and book your service appointment</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -70,11 +66,7 @@ const AIBooking = () => {
             </div>
 
             <div className="mt-8 text-center">
-              <Button 
-                size="lg"
-                onClick={handleAICall}
-                className="bg-gradient-secondary hover:shadow-purple transition-all duration-300 text-lg px-8"
-              >
+              <Button size="lg" onClick={handleAICall} className="bg-gradient-secondary hover:shadow-purple transition-all duration-300 text-lg px-8">
                 <Phone className="mr-2 w-5 h-5" />
                 Start AI Call
               </Button>
@@ -85,8 +77,6 @@ const AIBooking = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AIBooking;
