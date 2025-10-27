@@ -18,7 +18,7 @@ const Footer = () => {
             <p className="text-muted-foreground mb-4">
               Premium Auto Care & Maintenance
             </p>
-            <div className="flex justify-center gap-3 text-sm text-muted-foreground whitespace-nowrap overflow-x-auto">
+            <div className="flex flex-wrap justify-center gap-3 text-sm text-muted-foreground">
               <a href="#about" className="hover:text-primary transition-colors">
                 About Us
               </a>
