@@ -35,10 +35,10 @@ const Contact = () => {
               <Clock className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Availability</h3>
-            <p className="text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               24/7 Call Service
             </p>
-            <p className="text-sm text-muted-foreground mt-2">
+            <p className="text-lg text-muted-foreground">
               Our AI assistant is always available to help you
             </p>
           </Card>
@@ -48,13 +48,13 @@ const Contact = () => {
               <MapPin className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Location</h3>
-            <p className="text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               168 Barrett Street
             </p>
-            <p className="text-muted-foreground mt-2">
+            <p className="text-lg text-muted-foreground">
               Bracken Ridge
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               QLD 4017
             </p>
           </Card>
