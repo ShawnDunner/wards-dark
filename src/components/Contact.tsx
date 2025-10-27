@@ -54,6 +54,9 @@ const Contact = () => {
             <p className="text-sm text-muted-foreground mt-2">
               Bracken Ridge
             </p>
+            <p className="text-sm text-muted-foreground">
+              QLD 4017
+            </p>
           </Card>
         </div>
       </div>
