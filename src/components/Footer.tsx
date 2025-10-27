@@ -44,7 +44,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mt-6">
-              © {new Date().getFullYear()} Wards Service Centre. All rights reserved.
+              © {new Date().getFullYear()} Wards Service Centre ABN 19 657 867 331. All rights reserved.
             </p>
           </div>
 
