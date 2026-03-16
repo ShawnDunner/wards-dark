@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Clock, HelpCircle } from "lucide-react";
-import wardsLogo from "@/assets/wards-logo.png";
+import wardsLogo from "@/assets/Wards Service Centre logo design.png";
 const Hero = () => {
   const scrollToBooking = () => {
     document.getElementById('booking')?.scrollIntoView({

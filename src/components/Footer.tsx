@@ -1,4 +1,4 @@
-import wardsLogo from "@/assets/wards-logo.png";
+import wardsLogo from "@/assets/Wards Service Centre logo design.png";
 import { Facebook, Linkedin, Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
