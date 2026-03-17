@@ -34,15 +34,9 @@ const Contact = () => {
             <div className="w-14 h-14 rounded-full bg-gradient-secondary flex items-center justify-center mx-auto mb-4">
               <Clock className="w-7 h-7 text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Availability</h3>
+            <h3 className="text-xl font-semibold mb-3">Booking</h3>
             <p className="text-lg text-muted-foreground">
-              24/7 Call Service
-            </p>
-            <p className="text-lg text-muted-foreground">
-              Our AI assistant is always
-            </p>
-            <p className="text-lg text-muted-foreground">
-              available to help you
+              24/7 booking system is always available to help you
             </p>
           </Card>
 

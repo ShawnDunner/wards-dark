@@ -41,7 +41,7 @@ const Hero = () => {
               className="bg-gradient-primary text-white hover:scale-105 hover:shadow-glow transition-all duration-300 text-lg px-8 border-0 shadow-orange"
             >
               <Phone className="mr-2 w-5 h-5" />
-              To Book In Your Vehicle Call Us Now
+              Book In Your Vehicle With Us Now
             </Button>
             <a href="#faqs">
               <Button 

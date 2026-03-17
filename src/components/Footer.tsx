@@ -1,5 +1,4 @@
 import wardsLogo from "@/assets/Wards Service Centre logo design.png";
-import { Facebook, Linkedin, Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -28,36 +27,8 @@ const Footer = () => {
                 FAQs
               </a>
               <span>•</span>
-              <a href="#privacy" className="hover:text-primary transition-colors">
-                Privacy Policy
-              </a>
-              <span>•</span>
-              <a href="#terms" className="hover:text-primary transition-colors">
-                Terms & Conditions
-              </a>
-              <span>•</span>
-              <a href="#careers" className="hover:text-primary transition-colors">
-                Carers / Join Our Team
-              </a>
-              <span>•</span>
               <a href="#sitemap" className="hover:text-primary transition-colors">
                 Sitemap
-              </a>
-            </div>
-            
-            {/* Social Media Icons */}
-            <div className="flex justify-center gap-4 mt-4 mb-2">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="YouTube">
-                <Youtube className="w-5 h-5" />
               </a>
             </div>
 
