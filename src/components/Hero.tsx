@@ -34,7 +34,7 @@ const Hero = () => {
                 Book In Your Vehicle With Us Now
               </Button>
             </a>
-            <a href="/#faqs">
+            <a href="/faqs">
               <Button 
                 size="lg" 
                 className="bg-gradient-secondary text-secondary-foreground hover:scale-105 hover:shadow-purple transition-all duration-300 text-lg px-8 border-0 shadow-purple"
