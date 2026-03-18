@@ -1,4 +1,5 @@
-ï»¿import wardsLogo from "@/assets/Wards Service Centre logo design.png";
+import wardsLogo from "@/assets/Wards Service Centre logo design.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,18 +15,18 @@ const Footer = () => {
             <p className="mb-4 text-muted-foreground">Premium Auto Care & Maintenance</p>
 
             <nav className="flex flex-wrap justify-center gap-3 text-sm text-muted-foreground" aria-label="Footer links">
-              <a href="/" className="transition-colors hover:text-primary">Home</a>
-              <span>â€¢</span>
-              <a href="/services" className="transition-colors hover:text-primary">Services</a>
-              <span>â€¢</span>
-              <a href="/faqs" className="transition-colors hover:text-primary">FAQs</a>
-              <span>â€¢</span>
-              <a href="/book" className="transition-colors hover:text-primary">Book</a>
-              <span>â€¢</span>
-              <a href="/sitemap" className="transition-colors hover:text-primary">Sitemap</a>
+              <Link to="/" className="transition-colors hover:text-primary">Home</Link>
+              <span>•</span>
+              <Link to="/services" className="transition-colors hover:text-primary">Services</Link>
+              <span>•</span>
+              <Link to="/faqs" className="transition-colors hover:text-primary">FAQs</Link>
+              <span>•</span>
+              <Link to="/book" className="transition-colors hover:text-primary">Book</Link>
+              <span>•</span>
+              <Link to="/sitemap" className="transition-colors hover:text-primary">Sitemap</Link>
             </nav>
 
-            <p className="mt-4 text-sm text-muted-foreground">Â© {new Date().getFullYear()} Wards Service Centre ABN 19 657 867 331. All rights reserved.</p>
+            <p className="mt-4 text-sm text-muted-foreground">© {new Date().getFullYear()} Wards Service Centre ABN 19 657 867 331. All rights reserved.</p>
           </div>
 
           <div className="flex-shrink-0">

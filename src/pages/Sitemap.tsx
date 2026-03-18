@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 const pages = [
   { label: "Home", href: "/" },
@@ -19,13 +20,13 @@ const Sitemap = () => {
           </div>
           <div className="space-y-3">
             {pages.map((page) => (
-              <a
+              <Link
                 key={page.href}
-                href={page.href}
+                to={page.href}
                 className="block rounded-lg border border-border bg-card px-5 py-4 text-lg transition-colors hover:border-primary hover:text-primary"
               >
                 {page.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

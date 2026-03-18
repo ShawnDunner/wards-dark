@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { AudioWaveform, CalendarClock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AIBooking = () => {
   return (
@@ -39,11 +40,11 @@ const AIBooking = () => {
           </Card>
 
           <div className="mt-7 text-center">
-            <a href="/book">
+            <Link to="/book">
               <Button size="lg" className="min-w-52 bg-primary text-primary-foreground hover:bg-primary/90">
                 Book now
               </Button>
-            </a>
+            </Link>
           </div>
         </Card>
       </div>

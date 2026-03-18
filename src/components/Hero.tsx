@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Clock, HelpCircle } from "lucide-react";
 import wardsLogo from "@/assets/Wards Service Centre logo design.png";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
@@ -25,7 +26,7 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col gap-4 justify-center items-center">
-            <a href="/book">
+            <Link to="/book">
               <Button 
                 size="lg"
                 className="bg-gradient-primary text-primary-foreground hover:scale-105 hover:shadow-glow transition-all duration-300 text-lg px-8 border-0 shadow-orange"
@@ -33,8 +34,8 @@ const Hero = () => {
                 <Phone className="mr-2 w-5 h-5" />
                 Book In Your Vehicle With Us Now
               </Button>
-            </a>
-            <a href="/faqs">
+            </Link>
+            <Link to="/faqs">
               <Button 
                 size="lg" 
                 className="bg-gradient-secondary text-secondary-foreground hover:scale-105 hover:shadow-purple transition-all duration-300 text-lg px-8 border-0 shadow-purple"
@@ -42,7 +43,7 @@ const Hero = () => {
                 <HelpCircle className="mr-2 w-5 h-5" />
                 Frequently Asked Questions - FAQs
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
