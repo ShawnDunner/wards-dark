@@ -30,9 +30,9 @@ const Contact = () => {
             </div>
           </Card>
 
-          <Card className="p-6 bg-card border-border text-center hover:border-secondary/50 transition-all duration-300">
-            <div className="w-14 h-14 rounded-full bg-gradient-secondary flex items-center justify-center mx-auto mb-4">
-              <Clock className="w-7 h-7 text-secondary-foreground" />
+          <Card className="p-6 bg-card border-border text-center hover:border-primary/50 transition-all duration-300">
+            <div className="w-14 h-14 rounded-full bg-gradient-primary flex items-center justify-center mx-auto mb-4">
+              <Clock className="w-7 h-7 text-primary-foreground" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Booking</h3>
             <p className="text-lg text-muted-foreground">

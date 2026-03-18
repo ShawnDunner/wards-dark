@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import PageNav from "@/components/PageNav";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Plus } from "lucide-react";
 
 const faqItems = [
   {
@@ -67,14 +69,25 @@ const Faqs = () => {
             </p>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-2">
-            {faqItems.map((faq) => (
-              <article key={faq.question} className="rounded-xl border border-border bg-card p-6 shadow-purple">
-                <h2 className="mb-2 text-xl font-semibold">{faq.question}</h2>
-                <p className="text-muted-foreground">{faq.answer}</p>
-              </article>
+          <Accordion type="single" collapsible className="mx-auto max-w-4xl space-y-3">
+            {faqItems.map((faq, index) => (
+              <AccordionItem
+                key={faq.question}
+                value={`item-${index}`}
+                className="overflow-hidden rounded-xl border border-border bg-card px-5 shadow-purple"
+              >
+                <AccordionTrigger className="py-5 text-left text-lg font-semibold hover:no-underline">
+                  <span className="mr-3 inline-flex h-7 w-7 items-center justify-center rounded-md bg-primary text-primary-foreground">
+                    <Plus className="h-4 w-4" />
+                  </span>
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="pb-5 pl-10 text-base text-muted-foreground">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
             ))}
-          </div>
+          </Accordion>
         </div>
       </main>
       <Footer />
