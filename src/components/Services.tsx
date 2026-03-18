@@ -61,7 +61,7 @@ const Services = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className={`w-14 h-14 rounded-lg bg-gradient-${service.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                <service.icon className="w-7 h-7 text-white" />
+                <service.icon className="w-7 h-7 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
                 {service.title}

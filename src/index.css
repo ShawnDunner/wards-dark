@@ -8,47 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 7%;
-    --foreground: 0 0% 98%;
+    --background: 26 11% 12%;
+    --foreground: 12 13% 84%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 98%;
+    --card: 260 28% 17%;
+    --card-foreground: 12 13% 84%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 260 28% 17%;
+    --popover-foreground: 12 13% 84%;
 
-    --primary: 18 84% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 18 84% 65%;
+    --primary: 29 67% 48%;
+    --primary-foreground: 12 13% 84%;
+    --primary-glow: 29 67% 58%;
 
-    --secondary: 270 70% 60%;
-    --secondary-foreground: 0 0% 100%;
-    --secondary-glow: 270 70% 75%;
+    --secondary: 260 28% 17%;
+    --secondary-foreground: 12 13% 84%;
+    --secondary-glow: 260 28% 27%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 26 11% 12%;
+    --muted-foreground: 12 13% 74%;
 
-    --accent: 18 84% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 260 28% 17%;
+    --accent-foreground: 12 13% 84%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 12 13% 84%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 15%;
-    --ring: 18 84% 50%;
+    --border: 26 11% 22%;
+    --input: 260 28% 17%;
+    --ring: 29 67% 48%;
 
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(18 84% 50%), hsl(18 84% 65%));
-    --gradient-secondary: linear-gradient(135deg, hsl(270 70% 60%), hsl(270 70% 75%));
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 7%), hsl(0 0% 12%));
+    --gradient-primary: linear-gradient(135deg, hsl(29 67% 48%), hsl(29 67% 58%));
+    --gradient-secondary: linear-gradient(135deg, hsl(260 28% 17%), hsl(260 28% 27%));
+    --gradient-hero: linear-gradient(135deg, hsl(26 11% 12%), hsl(260 28% 17%));
     
     /* Shadows */
-    --shadow-orange: 0 10px 40px -10px hsl(18 84% 50% / 0.3);
-    --shadow-purple: 0 10px 40px -10px hsl(270 70% 60% / 0.3);
-    --shadow-glow: 0 0 60px hsl(18 84% 50% / 0.2);
+    --shadow-orange: 0 10px 40px -10px hsl(29 67% 48% / 0.3);
+    --shadow-purple: 0 10px 40px -10px hsl(260 28% 17% / 0.45);
+    --shadow-glow: 0 0 60px hsl(29 67% 48% / 0.22);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
