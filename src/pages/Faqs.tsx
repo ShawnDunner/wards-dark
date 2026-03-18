@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import PageNav from "@/components/PageNav";
 
 const faqItems = [
   {
@@ -58,6 +59,7 @@ const Faqs = () => {
     <div className="min-h-screen bg-background text-foreground">
       <main className="px-4 py-16">
         <div className="container mx-auto max-w-6xl">
+          <PageNav />
           <div className="mb-10 text-center">
             <h1 className="mb-3 text-4xl font-bold md:text-5xl">Frequently Asked Questions</h1>
             <p className="text-lg text-muted-foreground">
