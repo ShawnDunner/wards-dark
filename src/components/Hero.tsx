@@ -287,7 +287,9 @@ const Hero = () => {
             Wards Service Centre
           </h1>
           <p className="mb-2 text-lg text-foreground md:text-xl">Mechanics in Bracken Ridge</p>
-          <p className="mb-4 text-xl text-muted-foreground md:text-2xl">Premium Auto Care & Maintenance</p>
+          <p className="mb-4 text-xl text-muted-foreground md:text-2xl">
+            Premium Auto Care &amp; Maintenance that's out of this world
+          </p>
           <div className="mb-8 flex items-center justify-center gap-2">
             <Clock className="h-5 w-5 text-primary" />
             <p className="text-lg text-foreground">Booking system available 24/7 for your convenience</p>
@@ -297,7 +299,7 @@ const Hero = () => {
             <Link to="/book">
               <Button
                 size="lg"
-                className="border-0 bg-gradient-primary px-8 text-lg text-primary-foreground shadow-orange transition-all duration-300 hover:scale-105 hover:shadow-glow"
+                className="border border-[#271F37] bg-gradient-primary px-8 text-lg text-primary-foreground shadow-orange transition-all duration-300 hover:scale-105 hover:shadow-glow"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Book In Your Vehicle With Us Now
@@ -306,7 +308,7 @@ const Hero = () => {
             <Link to="/faqs">
               <Button
                 size="lg"
-                className="border-0 bg-gradient-secondary px-8 text-lg text-secondary-foreground shadow-purple transition-all duration-300 hover:scale-105 hover:shadow-purple"
+                className="border border-[#ce7929] bg-gradient-secondary px-8 text-lg text-secondary-foreground shadow-purple transition-all duration-300 hover:scale-105 hover:shadow-purple"
               >
                 <HelpCircle className="mr-2 h-5 w-5" />
                 Frequently Asked Questions - FAQs
