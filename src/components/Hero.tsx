@@ -299,7 +299,7 @@ const Hero = () => {
             <Link to="/book">
               <Button
                 size="lg"
-                className="!border !border-[#271F37] bg-gradient-primary px-8 text-lg text-primary-foreground shadow-orange transition-all duration-300 hover:scale-105 hover:shadow-glow"
+                className="!border !border-[#dcd4d2] bg-gradient-primary px-8 text-lg text-primary-foreground shadow-orange transition-all duration-300 hover:scale-105 hover:shadow-glow"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Book In Your Vehicle With Us Now
